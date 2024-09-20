@@ -1,0 +1,37 @@
+body{
+    background-color: slateblue;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+img {
+     width: 150px;
+     border-radius: 75px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+a {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    color: slateblue;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 30%;
+    
+}
+
+a:hover {
+    
+    background-color: rgb(152, 137, 250);
+    color: white;
+    transition: 0.3s;
+}

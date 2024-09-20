@@ -1,0 +1,47 @@
+* {
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(assets/images/background-pattern-desktop.svg) no-repeat;
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: hsl(275, 100%, 97%);
+    position: absolute;
+}
+
+div {
+    position: relative;
+    width: 30%;
+    height: 450px;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Work Sans", sans-serif;
+    color: hsl(292, 42%, 14%);
+
+    #icone-estrela {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: -40%;
+        width: 6%;
+    }
+
+    >h1 {
+        position: relative;
+        font-size: 40px;
+        text-align: left;
+        padding-top: 8%;
+        padding-left: 20%;
+    }
+
+    >.paragraph {
+        font-size: 16px;
+        color: hsl(275, 100%, 97%);
+    }
+}
